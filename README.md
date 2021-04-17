@@ -1,11 +1,15 @@
 # Umamusume msgpack to json converter
  Converts the decrypted game umamusume server communication msgpack packet to json and deserializes the included race_scianrio data to json.   
+ 
  See [here](https://github.com/CNA-Bld/Riru-CarrotJuicer) to how to get the decrypted msgpack   
+ 
  Both files ending in Q.msgpack and R.msgpack are supported.   
+ 
  If you don't need to convert to json and just want to see the visualized data, go [here](https://hakuraku.sshz.org/#/carrotjuicer). It is a very good web tool.   
  
 ## Usage 
  ```umamusume_msgpack_json_converter.exe [decryped_packet.msgpack]```   
+ 
  It will automatically convert msgpack to json and if there is race_scenario inside it will try to convert it to json too.
  
 ## Credit/Source
